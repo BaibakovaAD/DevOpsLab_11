@@ -1,6 +1,6 @@
 import pytest
 
-from .application import TestMe
+from application import TestMe
 
 def test_server():
     assert TestNe().take_five() == 5
